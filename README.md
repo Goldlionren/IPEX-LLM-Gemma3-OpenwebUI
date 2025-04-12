@@ -24,3 +24,25 @@ Local deployment, no internet required
 Auto-logging to log.txt
 
 This project is designed for those looking to unleash full performance of Intel GPUs for local LLM inference and multimodal interaction.
+
+This API depends on the Intel-accelerated Gemma 3 model files in .gguf format, along with the multimodal projection model mmproj-model-f16.gguf.
+
+✅ Model Download Steps:
+Download the quantized main model:
+
+gemma-3-27b-it-Q4_K_M.gguf
+
+Recommended versions: Q4_K_M or Q5_K_M (for memory-constrained systems)
+
+Download multimodal projection file (for image input):
+
+mmproj-model-f16.gguf
+
+Place them in a model directory, for example:
+
+makefile
+Copy
+Edit
+F:\Models\
+├── gemma-3-27b-it-Q4_K_M.gguf
+└── mmproj-model-f16.gguf
