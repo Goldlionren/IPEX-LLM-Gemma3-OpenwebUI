@@ -1,3 +1,12 @@
+---
+
+## 🙏 致谢 · Acknowledgements
+
+本项目基于 [Intel IPEX-LLM](https://github.com/intel/ipex-llm) 提供的多模态推理引擎 `llama-gemma3-cli.exe` 构建，特别感谢该项目对 Intel GPU 本地推理的贡献。
+
+> llama-gemma3-cli.exe 是 IPEX-LLM 项目提供的实验性 CLI 工具，支持通过 Intel Arc GPU 加速 Gemma 3 多模态大模型。
+
+---
 本项目旨在为基于 llama-gemma3-cli.exe 的本地多模态模型推理提供一个 OpenAI API 兼容接口，支持通过 Open WebUI 与 Gemma 3 系列模型（如 Gemma 3 27B）交互。
 
 与传统的 CUDA/NVIDIA 显卡不同，本项目特别优化用于 Intel 显卡推理加速，支持以下系列：
