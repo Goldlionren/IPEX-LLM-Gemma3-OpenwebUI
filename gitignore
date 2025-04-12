@@ -1,0 +1,40 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+
+# Environment
+.env
+.venv/
+env/
+venv/
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+
+# Conda
+*.conda
+*.egg-info/
+*.manifest
+*.spec
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Model files (don't upload large .gguf files)
+*.gguf
+*.bin
+*.ckpt
+
+# Output
+log.txt
+webui_uploaded.png
