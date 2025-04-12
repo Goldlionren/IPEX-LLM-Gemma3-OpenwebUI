@@ -1,4 +1,13 @@
 # IPEX-LLM-Gemma3-OpenwebUI
+
+---
+
+This project is powered by [Intel's IPEX-LLM](https://github.com/intel/ipex-llm), especially the `llama-gemma3-cli.exe` tool for local multimodal inference. Huge thanks to the IPEX-LLM team for bringing native LLM acceleration to Intel GPUs.
+
+> llama-gemma3-cli.exe is part of the IPEX-LLM ecosystem and enables efficient multimodal inference on Intel Arc and Core Ultra GPUs.
+
+---
+
 This project provides an OpenAI-compatible API wrapper for local inference using llama-gemma3-cli.exe, enabling smooth integration with Open WebUI to interact with Gemma 3 models such as Gemma 3 27B.
 
 Unlike traditional inference solutions based on NVIDIA GPUs, this implementation is optimized for Intel GPU acceleration, supporting:
