@@ -19,3 +19,27 @@ Open WebUI 图形界面调用
 自动日志记录
 
 本地部署，无需联网
+
+本项目依赖经过 Intel IPEX-LLM 加速兼容的 Gemma 3 模型文件（.gguf 格式）与多模态投影模型 mmproj-model-f16.gguf。
+
+您可以通过以下方式获取模型：
+
+✅ 模型准备步骤：
+下载主模型（推荐量化版本）：
+
+gemma-3-27b-it-Q4_K_M.gguf
+
+建议使用 Q4_K_M 或 Q5_K_M 量化版本，适合内存有限的系统
+
+下载多模态投影文件（如使用图像输入）：
+
+mmproj-model-f16.gguf (Gemma3专用)
+
+将文件放入模型目录，例如：
+
+makefile
+Copy
+Edit
+F:\Models\
+├── gemma-3-27b-it-Q4_K_M.gguf
+└── mmproj-model-f16.gguf
